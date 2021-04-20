@@ -14,7 +14,12 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 - Evite duplicação de código. 
 - Considere a implementação de funções para melhorar a legibilidade, evitar a duplicação e criar soluções mais genéricas.
 
-1.	Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.
+Existem dois níveis de exercícios:
+* **A**: exercícios relacionados com Apontadores (primeira aula teorica de apontadores)
+* **A2**: exercícios relacionados com Aritmética de Apontadores
+ 
+
+1. **A2** Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.
     
     a)	nome é uma cadeia com 10 caracteres
     
@@ -23,7 +28,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     c)	pstr é um ponteiro para um vetor de 10 caracteres
 
 
-2.	Considere as seguintes declarações e responda às questões justificando:
+2. **A2** Considere as seguintes declarações e responda às questões justificando:
 
     ```C
     int * ptr;
@@ -37,7 +42,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     c) Qual o valor de *ptr e *(ptr+2) ?
 
 
-3.	Considere o seguinte código:
+3. **A** Considere o seguinte código:
     ```C
     int main (int argc, char * argv[]) {
       int numero = 10;  
@@ -57,7 +62,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     d) Apresente novamente no ecrã o valor da variável número, usando o ponteiro pNum;
 
 
-4.	Indique justificando qual o output do seguinte código sem o executar:
+4. **A** Indique justificando qual o output do seguinte código sem o executar:
 
     a)
     ```C
@@ -86,7 +91,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
       return 0;  
     } 
     ```
- 5.	Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
+ 5. **A** Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
 
     Sugere-se que a função tenha o seguinte protocolo:    
     ```C
@@ -94,7 +99,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     ```
     
 
-6.	Considere as funções main () e calcular_dados() que se seguem:
+6. **A** Considere as funções main () e calcular_dados() que se seguem:
     ```C
     void calcular_dados (...) {  // TODO  }   
 
@@ -118,14 +123,14 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
 
 
-7.	Implemente uma função que seja capaz de determinar qual o maior e menor valores de um vetor de inteiros. A função deve respeitar a seguinte assinatura:
+7. **A** Implemente uma função que seja capaz de determinar qual o maior e menor valores de um vetor de inteiros. A função deve respeitar a seguinte assinatura:
     ```C
     void calcMinimoEMaximo (int numeros[], int tamanho, int *min, int *max ) {  }
     ```
     Os valores do menor e maior números devem ser guardados nas posições de memória para as  quais apontem os parâmetros min e max  (ponteiros)  que a função recebe.
 
 
-8.	Considere o array argv[], que faz parte da assinatura standard da função main,  e que permite receber argumentos de linha de comandos, durante a execução do programa.
+8. **A** Considere o array argv[], que faz parte da assinatura standard da função main,  e que permite receber argumentos de linha de comandos, durante a execução do programa.
     ```C
     int main (int argc, char* argv[]) { 
  		  /* … */  
@@ -149,7 +154,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     - Tenha em conta que argv[0] irá conter o nome do programa. Esse argumento não deverá aparecer no seu output.
 
 
-9.	Seja o seguinte trecho de programa:
+9. **A2** Seja o seguinte trecho de programa:
     ```C
     int i=3,j=5;
     int *p, *q;
@@ -167,7 +172,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     d) 3* - *p/(*q)+7
 
 
-10.	Qual será a saída deste programa supondo que i ocupa o endereço 4094 na memória?
+10. **A2** Qual será a saída deste programa supondo que i ocupa o endereço 4094 na memória?
     ```C
     main() {
       int i=5, *p;
@@ -176,7 +181,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     }
     ```
 
-11.	Se i e j são variáveis inteiras e p e q ponteiros para int, quais das seguintes expressões de atribuição são ilegais?
+11. **A2** Se i e j são variáveis inteiras e p e q ponteiros para int, quais das seguintes expressões de atribuição são ilegais?
       
       a.	p = &i;
       
@@ -195,7 +200,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
       h.	i = (*p)++ + *q
 
 
-12.	Qual é o resultado do seguinte programa?
+12. **A2** Qual é o resultado do seguinte programa?
     ```C
     #include <conio.h>
     #include <stdio.h>
@@ -214,7 +219,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
       }
     }
     ```
-13.	Assumindo que pulo[] é um vetor do tipo int, quais das seguintes expressões referenciam o valor do terceiro elemento da matriz?
+13. **A2** Assumindo que pulo[] é um vetor do tipo int, quais das seguintes expressões referenciam o valor do terceiro elemento da matriz?
     
     a.	*(pulo + 2)
     
@@ -224,7 +229,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     
     d.	pulo + 2
 
-14. Supor a declaração: int mat[4], *p, x; Quais expressões são válidas? Justifique:
+14. **A2** Supor a declaração: int mat[4], *p, x; Quais expressões são válidas? Justifique:
     
     a.	p = mat + 1;
     
@@ -234,7 +239,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     
     d.	x = (*mat)++;
 
-15. O que fazem os seguintes programas:
+15. **A2** O que fazem os seguintes programas:
     a)
     ```C
     #include <stdio.h>
@@ -268,7 +273,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
       }
     }
     ```
- 16. O que faz o seguinte programa quando executado?
+ 16. **A2** O que faz o seguinte programa quando executado?
     
     a)    
     ```C
@@ -295,7 +300,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     }
     ```
 
-17.	Seja vet um vetor de 4 elementos: TIPO vet[4]. Supor que depois da declaração, vet esteja armazenado no endereço de memória 4092 (ou seja, o endereço de vet[0]). Supor também que na máquina usada uma variável do tipo char ocupa 1 byte, do tipo int ocupa 2 bytes, do tipo float ocupa 4 bytes e do tipo double ocupa 8 bytes.
+17. **A2** Seja vet um vetor de 4 elementos: TIPO vet[4]. Supor que depois da declaração, vet esteja armazenado no endereço de memória 4092 (ou seja, o endereço de vet[0]). Supor também que na máquina usada uma variável do tipo char ocupa 1 byte, do tipo int ocupa 2 bytes, do tipo float ocupa 4 bytes e do tipo double ocupa 8 bytes.
 
   Qual o valor de vet+1, vet+2 e vet+3 se:
   
@@ -308,20 +313,20 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     d.	vet for declarado como double?
 
 
-1.	Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
+1. **A** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
 
 	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
 	
 	*Notas:*
 	Transforme os endereços num long int para melhor compreensão dos resultados.
 
-2.	Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
+2. **A** Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
 
 
-3.	Implemente a função myStrlen. Esta função deverá retornar a diferença entre o primeiro endereço de memória da string e o último.
+3 **A2** Implemente a função myStrlen. Esta função deverá retornar a diferença entre o primeiro endereço de memória da string e o último.
 int myStrlen(char *s) {…}
 
-4.	Identifique os erros nestas operações:
+4. **A2** Identifique os erros nestas operações:
 	
 	```C
 	char s[20] = “Ola”;
@@ -335,28 +340,26 @@ int myStrlen(char *s) {…}
 	s+1-s
 	```
 
-5.	Implemente a função myStrcpy que copia a string orig para a string dest.
+5. **A** Implemente a função myStrcpy que copia a string orig para a string dest.
 	```C
 	char *myStrcpy(char *dest, char *orig) {…}
 	```
 	
-6.	Implemente a função myStrcat que junta (concatena) a string orig à string dest. Poderá utilizar a função myStrcpy criada no exercício anterior.
+6.  **A** Implemente a função myStrcat que junta (concatena) a string orig à string dest. Poderá utilizar a função myStrcpy criada no exercício anterior.
 	```C
 	char *myStrcat(char *dest, char *orig){…} 
 	```
-7.	
-
-8.	Implemente a função troca.
+7.  **A** Implemente a função troca.
 	```C
 	void troca (int *a, int *b) {…}
 	```
 	
-9.	Implemente a função strset que coloca o carácter ch em todas as posições da string str.
+9.  **A** Implemente a função strset que coloca o carácter ch em todas as posições da string str.
 	```C
 	char *strset(char *str, char ch) {…}
 	```
 
-10.	Implemente um programa que some todos os números passados na linha de comando.
+10.  **A** Implemente um programa que some todos os números passados na linha de comando.
 
 	Exemplo:
 	```bash

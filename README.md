@@ -21,7 +21,7 @@ Existem dois níveis de exercícios:
 * **A2**: exercícios relacionados com Aritmética de Apontadores (aula teórica de Aritmética de Apontadores)
  
 
-## Exercicios
+## Exercicios de Apontadores [A]
 
 
 1. Considere a seguinte sequência de instruções:

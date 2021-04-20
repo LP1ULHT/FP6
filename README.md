@@ -47,7 +47,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 |    ...   |          |               |
 
 
-x1. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
+1X. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
 
 	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
 	
@@ -126,7 +126,7 @@ x1. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo in
     } 
     ```
     
- 5. **[A]** Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
+5. **[A]** Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
 
     Sugere-se que a função tenha o seguinte protocolo:    
     ```C
@@ -189,7 +189,7 @@ x1. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo in
     - Tenha em conta que argv[0] irá conter o nome do programa. Esse argumento não deverá aparecer no seu output.
 
 
-x10.  **[A]** Implemente um programa que some todos os números passados na linha de comando.
+10x.  **[A]** Implemente um programa que some todos os números passados na linha de comando.
 
 	Exemplo:
 	```bash

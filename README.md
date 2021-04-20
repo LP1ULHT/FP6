@@ -47,6 +47,27 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 |    ...   |          |               |
 
 
+2. Qual o valor das variáveis x, y e z no fim da execução do programa?
+
+    ```C
+	#include <stdio.h>
+	void func(int n, int * a, int * b)
+	{
+		n = *a;
+		*a = *b;
+		*b = n++;
+	}
+	int main(void)
+	{
+		int x = 10, y = 15, z = 5;
+		func(z, &x, &y);
+		printf("x = %d, y = %d, z = %d\n", x, y, z);
+		return 0;
+	}
+    ```C
+    
+    
+
 3. **[A]** Considere o seguinte código:
     ```C
     int main (int argc, char * argv[]) {

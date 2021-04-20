@@ -9,7 +9,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
 - O código apresentado deve ser bem indentado. 
 - O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
-- `gcc -Wall -Wextra -Wpedantic -std=c99 -g exercicio1.c -o exercicio1`
+- `gcc -Wall -Wextra -Wpedantic -ansi -g exercicio1.c -o exercicio1`
 - Tenha em atenção os nomes dados das variáveis, para que sejam indicadores daquilo que as mesmas vão conter.
 - Evite o uso de constantes mágicas. 
 - Evite duplicação de código. 
@@ -99,7 +99,8 @@ Nesta ficha existem dois níveis de exercícios:
 
     a)
     ```C
-    int main () {
+    int main () 
+    {
       int numeros[] = {10, 20, 30};
       int * pNum = &numeros[0];
       printf("Valor = %d\n", *pNum);  
@@ -114,7 +115,8 @@ Nesta ficha existem dois níveis de exercícios:
     ```C
     #include <stdio.h>   
     #define MAX 5    
-    int main () {    
+    int main () 
+    {    
       int numeros[MAX] = {10, 20, 30, 40, 50};    
       int* pNum = numeros;      
       while(pNum<=&numeros[MAX-1]) {      
@@ -137,7 +139,8 @@ Nesta ficha existem dois níveis de exercícios:
     ```C
     void calcular_dados (...) {  // TODO  }   
 
-    int main () { 
+    int main () 
+    { 
       int x = 10, y = 15;
       int soma;  
       float media;    
@@ -166,7 +169,8 @@ Nesta ficha existem dois níveis de exercícios:
 
 9. Considere o array argv[], que faz parte da assinatura standard da função main,  e que permite receber argumentos de linha de comandos, durante a execução do programa.
     ```C
-    int main (int argc, char* argv[]) { 
+    int main (int argc, char* argv[]) 
+    { 
  		  /* … */  
       return 0;  
     }

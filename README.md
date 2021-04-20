@@ -298,7 +298,8 @@ Nesta ficha existem dois níveis de exercícios:
 
 10. **[A2]** Qual será a saída deste programa supondo que i ocupa o endereço 4094 na memória?
     ```C
-    main() {
+    main() 
+    {
       int i=5, *p;
       p = &i;
       printf(“%ld %d %d %d %d\n”, (long)p,*p+2,**&p,3**p,**&p+4);
@@ -367,7 +368,8 @@ Nesta ficha existem dois níveis de exercícios:
     a)
     ```C
     #include <stdio.h>
-    void main(){
+    void main()
+    {
       int vet[] = {4,9,13};
       int i;
       for(i=0;i<3;i++){
@@ -378,7 +380,8 @@ Nesta ficha existem dois níveis de exercícios:
     b)
     ```C
     #include <stdio.h>
-    void main(){
+    void main()
+    {
       int vet[] = {4,9,13};
       int i;
       for(i=0;i<3;i++){
@@ -389,7 +392,8 @@ Nesta ficha existem dois níveis de exercícios:
     c)
     ```C
     #include <stdio.h>
-    void main(){
+    void main()
+    {
       int vet[] = {4,9,13};
       int i;
       for(i=0;i<3;i++){
@@ -402,7 +406,8 @@ Nesta ficha existem dois níveis de exercícios:
     a)    
     ```C
     #include <stdio.h>
-    void main() {
+    void main() 
+    {
       int vet[] = {4,9,12};
       int i,*ptr;
       ptr = vet;
@@ -414,7 +419,8 @@ Nesta ficha existem dois níveis de exercícios:
     b)
     ```C
     #include <stdio.h>
-    void main(){
+    void main()
+    {
       int vet[] = {4,9,12};
       int i,*ptr;
       ptr = vet;

@@ -24,6 +24,27 @@ Existem dois níveis de exercícios:
 ## Exercicios
 
 
+1. Considere a seguinte sequência de instruções:
+    ```C
+	int var1 ;
+	int var2 = 15;
+	int * ptr = & var1 ;
+	int * ptr2 = ptr;
+	*ptr = var2 ;
+    ```
+Complete a tabela em baixo preenchendo o conteúdo das variáveis var1, ptr e ptr2 no fim
+da execuçãao da sequência de instruções. Preencha também o endereço correspondente à
+variável var2 assumindo que este é o próximo endereço livre possível.
+
+| Endereço | Conteúdo | Identificador |
+|:--------:|:--------:|:-------------:|
+|    ...   |          |               |
+|  0xFF8B4 |          |      var1     |
+|          |    15    |      var2     |
+|    ...   |          |               |
+|  0xFF900 |          |      ptr      |
+|  0xFF908 |          |      ptr2     |
+|    ...   |          |               |
 
 
 3. **[A]** Considere o seguinte código:

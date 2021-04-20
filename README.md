@@ -47,6 +47,14 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 |    ...   |          |               |
 
 
+x1. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
+
+	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
+	
+	*Notas:*
+	Transforme os endereços num long int para melhor compreensão dos resultados.
+
+
 2. Qual o valor das variáveis x, y e z no fim da execução do programa?
 
     ```C
@@ -117,6 +125,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
       return 0;  
     } 
     ```
+    
  5. **[A]** Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
 
     Sugere-se que a função tenha o seguinte protocolo:    
@@ -169,25 +178,29 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 
     Seguem-se três exemplos de sessões do programa:
     ```bash
-    > nome¬programa.exe
+    > nome_programa.exe
     Não foram introduzidos argumentos.
-    > nome¬programa.exe ola  
+    > nome_programa.exe ola  
     Os argumentos são:  1 ola    
-    > nome¬programa.exe ola ole  
+    > nome_programa.exe ola ole  
     Os argumentos são:  1 ola  2 ole
     ```
     *Notas:*
     - Tenha em conta que argv[0] irá conter o nome do programa. Esse argumento não deverá aparecer no seu output.
 
 
+x10.  **[A]** Implemente um programa que some todos os números passados na linha de comando.
 
-x1. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
-
-	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
+	Exemplo:
+	```bash
+	> Soma
+	0
+	> Soma 10 20 30
+	60
+	> Soma 10 20 30 -5
+	55
+	```
 	
-	*Notas:*
-	Transforme os endereços num long int para melhor compreensão dos resultados.
-
 x2. **[A]** Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
 
 
@@ -210,17 +223,6 @@ x9.  **[A]** Implemente a função strset que coloca o carácter ch em todas as 
 	char *strset(char *str, char ch) {…}
 	```
 
-x10.  **[A]** Implemente um programa que some todos os números passados na linha de comando.
-
-	Exemplo:
-	```bash
-	> Soma
-	0
-	> Soma 10 20 30
-	60
-	> Soma 10 20 30 -5
-	55
-	```
 
 
 

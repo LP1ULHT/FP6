@@ -16,9 +16,9 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 - Considere a implementação de funções para melhorar a legibilidade, evitar a duplicação e criar soluções mais genéricas.
 
 ## Níveis de exercícios
-Existem dois níveis de exercícios:
+Nesta ficha existem dois níveis de exercícios:
 * **[A]**: exercícios relacionados com Apontadores (aula teórica de Apontadores)
-* **A2**: exercícios relacionados com Aritmética de Apontadores (aula teórica de Aritmética de Apontadores)
+* **[A2]**: exercícios relacionados com Aritmética de Apontadores (aula teórica de Aritmética de Apontadores)
  
 
 ## Exercicios de Apontadores [A]

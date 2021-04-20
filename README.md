@@ -53,19 +53,19 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 	#include <stdio.h>
 	void func(int n, int * a, int * b)
 	{
-		n = *a;
-		*a = *b;
-		*b = n++;
+	   n = *a;
+	   *a = *b;
+	   *b = n++;
 	}
 	int main(void)
 	{
-		int x = 10, y = 15, z = 5;
-		func(z, &x, &y);
-		printf("x = %d, y = %d, z = %d\n", x, y, z);
-		return 0;
+	   int x = 10, y = 15, z = 5;
+	   func(z, &x, &y);
+	   printf("x = %d, y = %d, z = %d\n", x, y, z);
+	   return 0;
 	}
-    ```C
-    
+    ```
+ 
     
 
 3. **[A]** Considere o seguinte código:

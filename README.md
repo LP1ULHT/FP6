@@ -34,9 +34,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     
     b) E ref+1?  
     
-    c) E ++ref aponta para quê?
-    
-    d) Qual o valor de *ptr e *(ptr+2) ?
+    c) Qual o valor de *ptr e *(ptr+2) ?
 
 
 3.	Considere o seguinte código:

@@ -87,7 +87,7 @@ Existem dois níveis de exercícios:
     int main () {    
       int numeros[MAX] = {10, 20, 30, 40, 50};    
       int* pNum = numeros;      
-      while(pNum<=&numeros[MAX¬-1]) {      
+      while(pNum<=&numeros[MAX-1]) {      
         printf("numero via ponteiro = %d\n", *pNum);      
         pNum++;    
       }      
@@ -111,8 +111,8 @@ Existem dois níveis de exercícios:
       int soma;  
       float media;    
       calcular_dados (...); // TODO    
-      printf(“Soma = %d\n“, soma);  
-      printf(“Media = %f\n”, media);    
+      printf("Soma = %d\n", soma);  
+      printf("Media = %f\n", media);    
       return 0;  
     }
     ```
@@ -149,9 +149,9 @@ Existem dois níveis de exercícios:
     > nome¬programa.exe
     Não foram introduzidos argumentos.
     > nome¬programa.exe ola  
-    Os argumentos são:  1 ¬ ola    
+    Os argumentos são:  1 ola    
     > nome¬programa.exe ola ole  
-    Os argumentos são:  1 ¬ ola  2 ¬ ole
+    Os argumentos são:  1 ola  2 ole
     ```
     *Notas:*
     - Tenha em conta que argv[0] irá conter o nome do programa. Esse argumento não deverá aparecer no seu output.

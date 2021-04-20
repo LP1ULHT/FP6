@@ -4,6 +4,7 @@
 
 # Ficha de Exercícios - 6: Ponteiros
 
+## Recomendações
 Na resolução destes exercícios deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
 
 - O código apresentado deve ser bem indentado. 
@@ -14,11 +15,13 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 - Evite duplicação de código. 
 - Considere a implementação de funções para melhorar a legibilidade, evitar a duplicação e criar soluções mais genéricas.
 
+## Níveis de exercícios
 Existem dois níveis de exercícios:
 * **A**: exercícios relacionados com Apontadores (primeira aula teorica de apontadores)
 * **A2**: exercícios relacionados com Aritmética de Apontadores
  
 
+## Exercicios
 1. **A2** Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.
     
     a)	nome é uma cadeia com 10 caracteres

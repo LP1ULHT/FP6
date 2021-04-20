@@ -32,9 +32,7 @@ Existem dois níveis de exercícios:
 	int * ptr2 = ptr;
 	*ptr = var2 ;
     ```
-Complete a tabela em baixo preenchendo o conteúdo das variáveis var1, ptr e ptr2 no fim
-da execuçãao da sequência de instruções. Preencha também o endereço correspondente à
-variável var2 assumindo que este é o próximo endereço livre possível.
+   Complete a tabela em baixo preenchendo o conteúdo das variáveis var1, ptr e ptr2 no fim da execuçãao da sequência de instruções. Preencha também o endereço correspondente à variável var2 assumindo que este é o próximo endereço livre possível.
 
 | Endereço | Conteúdo | Identificador |
 |:--------:|:--------:|:-------------:|

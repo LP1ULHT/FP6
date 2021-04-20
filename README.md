@@ -17,8 +17,8 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
 ## Níveis de exercícios
 Existem dois níveis de exercícios:
-* **A**: exercícios relacionados com Apontadores (primeira aula teorica de apontadores)
-* **A2**: exercícios relacionados com Aritmética de Apontadores
+* **A**: exercícios relacionados com Apontadores (aula teórica de Apontadores)
+* **A2**: exercícios relacionados com Aritmética de Apontadores (aula teórica de Aritmética de Apontadores)
  
 
 ## Exercicios

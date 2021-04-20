@@ -227,6 +227,27 @@ Existem dois níveis de exercícios:
 
 # Exercícios de aritmética de apontadores (A2)
 
+0.
+1.  Preencha os valores em falta na Tabela 1 depois de executadas as seguintes instruções. Note que (sizeof(short int) == 2) e que (sizeof(void *) == 8) e assuma que o endereço de p2 é o próximo endereço livre a seguir ao endereço de p1.
+
+```C
+	unsigned short int x[2] = {0xABB9, 0xC0DD};
+	unsigned short int *p1 = x;
+	unsigned short int **p2 = &p1;
+	(*p1)++;
+	(*p2)++;
+	(*p1)++;
+```
+
+	| Endereço | Conteúdo | Identificador |
+	|:--------:|:--------:|:-------------:|
+	|    ...   |          |               |
+	|  0x100c  |          |      x[0]     |
+	|          |          |      x[1]     |
+	|    ...   |    ...   |       ...     |
+	|  0x2000  |          |      p1       |
+	|          |          |      p2       |
+	
 
 
 1. **[A2]** Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.

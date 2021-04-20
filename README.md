@@ -33,16 +33,17 @@ Existem dois níveis de exercícios:
 	*ptr = var2 ;
     ```
    Complete a tabela em baixo preenchendo o conteúdo das variáveis var1, ptr e ptr2 no fim da execuçãao da sequência de instruções. Preencha também o endereço correspondente à variável var2 assumindo que este é o próximo endereço livre possível.
+   
 
-| Endereço | Conteúdo | Identificador |
-|:--------:|:--------:|:-------------:|
-|    ...   |          |               |
-|  0xFF8B4 |          |      var1     |
-|          |    15    |      var2     |
-|    ...   |          |               |
-|  0xFF900 |          |      ptr      |
-|  0xFF908 |          |      ptr2     |
-|    ...   |          |               |
+	| Endereço | Conteúdo | Identificador |
+	|:--------:|:--------:|:-------------:|
+	|    ...   |          |               |
+	|  0xFF8B4 |          |      var1     |
+	|          |    15    |      var2     |
+	|    ...   |          |               |
+	|  0xFF900 |          |      ptr      |
+	|  0xFF908 |          |      ptr2     |
+	|    ...   |          |               |
 
 
 2. Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.

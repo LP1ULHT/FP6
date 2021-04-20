@@ -22,27 +22,8 @@ Existem dois níveis de exercícios:
  
 
 ## Exercicios
-1. **A2** Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.
-    
-    a)	nome é uma cadeia com 10 caracteres
-    
-    b)	psa é um vetor de 10 ponteiros para caracteres
-    
-    c)	pstr é um ponteiro para um vetor de 10 caracteres
 
 
-2. **A2** Considere as seguintes declarações e responda às questões justificando:
-
-    ```C
-    int * ptr;
-    int ref[] = {1,2,3,4};
-    ptr = &ref[0];
-    ```
-    a) ref é o endereço de quê?
-    
-    b) E ref+1?  
-    
-    c) Qual o valor de *ptr e *(ptr+2) ?
 
 
 3. **A** Considere o seguinte código:
@@ -155,6 +136,79 @@ Existem dois níveis de exercícios:
     ```
     *Notas:*
     - Tenha em conta que argv[0] irá conter o nome do programa. Esse argumento não deverá aparecer no seu output.
+
+
+
+x1. **A** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
+
+	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
+	
+	*Notas:*
+	Transforme os endereços num long int para melhor compreensão dos resultados.
+
+x2. **A** Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
+
+
+x5. **A** Implemente a função myStrcpy que copia a string orig para a string dest.
+	```C
+	char *myStrcpy(char *dest, char *orig) {…}
+	```
+	
+x6.  **A** Implemente a função myStrcat que junta (concatena) a string orig à string dest. Poderá utilizar a função myStrcpy criada no exercício anterior.
+	```C
+	char *myStrcat(char *dest, char *orig){…} 
+	```
+x7.  **A** Implemente a função troca.
+	```C
+	void troca (int *a, int *b) {…}
+	```
+	
+x9.  **A** Implemente a função strset que coloca o carácter ch em todas as posições da string str.
+	```C
+	char *strset(char *str, char ch) {…}
+	```
+
+x10.  **A** Implemente um programa que some todos os números passados na linha de comando.
+
+	Exemplo:
+	```bash
+	> Soma
+	0
+	> Soma 10 20 30
+	60
+	> Soma 10 20 30 -5
+	55
+	```
+
+
+
+
+# Exercícios de aritmética de apontadores (A2)
+
+
+
+1. **A2** Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.
+    
+    a)	nome é uma cadeia com 10 caracteres
+    
+    b)	psa é um vetor de 10 ponteiros para caracteres
+    
+    c)	pstr é um ponteiro para um vetor de 10 caracteres
+
+
+2. **A2** Considere as seguintes declarações e responda às questões justificando:
+
+    ```C
+    int * ptr;
+    int ref[] = {1,2,3,4};
+    ptr = &ref[0];
+    ```
+    a) ref é o endereço de quê?
+    
+    b) E ref+1?  
+    
+    c) Qual o valor de *ptr e *(ptr+2) ?
+
 
 
 9. **A2** Seja o seguinte trecho de programa:
@@ -316,20 +370,10 @@ Existem dois níveis de exercícios:
     d.	vet for declarado como double?
 
 
-1. **A** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
-
-	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
-	
-	*Notas:*
-	Transforme os endereços num long int para melhor compreensão dos resultados.
-
-2. **A** Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
-
-
-3 **A2** Implemente a função myStrlen. Esta função deverá retornar a diferença entre o primeiro endereço de memória da string e o último.
+x3. **A2** Implemente a função myStrlen. Esta função deverá retornar a diferença entre o primeiro endereço de memória da string e o último.
 int myStrlen(char *s) {…}
 
-4. **A2** Identifique os erros nestas operações:
+x4. **A2** Identifique os erros nestas operações:
 	
 	```C
 	char s[20] = “Ola”;
@@ -341,35 +385,4 @@ int myStrlen(char *s) {…}
 	s = s-2
 	s < s+1
 	s+1-s
-	```
-
-5. **A** Implemente a função myStrcpy que copia a string orig para a string dest.
-	```C
-	char *myStrcpy(char *dest, char *orig) {…}
-	```
-	
-6.  **A** Implemente a função myStrcat que junta (concatena) a string orig à string dest. Poderá utilizar a função myStrcpy criada no exercício anterior.
-	```C
-	char *myStrcat(char *dest, char *orig){…} 
-	```
-7.  **A** Implemente a função troca.
-	```C
-	void troca (int *a, int *b) {…}
-	```
-	
-9.  **A** Implemente a função strset que coloca o carácter ch em todas as posições da string str.
-	```C
-	char *strset(char *str, char ch) {…}
-	```
-
-10.  **A** Implemente um programa que some todos os números passados na linha de comando.
-
-	Exemplo:
-	```bash
-	> Soma
-	0
-	> Soma 10 20 30
-	60
-	> Soma 10 20 30 -5
-	55
 	```

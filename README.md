@@ -95,38 +95,6 @@ Nesta ficha existem dois níveis de exercícios:
     d) Apresente novamente no ecrã o valor da variável número, usando o ponteiro pNum;
 
 
-5. Indique justificando qual o output do seguinte código sem o executar:
-
-    a)
-    ```C
-    int main () 
-    {
-      int numeros[] = {10, 20, 30};
-      int * pNum = &numeros[0];
-      printf("Valor = %d\n", *pNum);  
-      pNum++;  
-      printf("Valor = %d\n", *pNum);  
-      pNum = pNum + 1;  
-      printf("numero via ponteiro = %d\n", *pNum);  
-      return 0; 
-    }    
-    ```
-    b)
-    ```C
-    #include <stdio.h>   
-    #define MAX 5    
-    int main () 
-    {    
-      int numeros[MAX] = {10, 20, 30, 40, 50};    
-      int* pNum = numeros;      
-      while(pNum<=&numeros[MAX-1]) {      
-        printf("numero via ponteiro = %d\n", *pNum);      
-        pNum++;    
-      }      
-      return 0;  
-    } 
-    ```
-    
 6. Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
 
     Sugere-se que a função tenha o seguinte protocolo:    
@@ -253,6 +221,39 @@ Nesta ficha existem dois níveis de exercícios:
 |          |          |      p2       |
 	
 
+
+5. Indique justificando qual o output do seguinte código sem o executar:
+
+    a)
+    ```C
+    int main () 
+    {
+      int numeros[] = {10, 20, 30};
+      int * pNum = &numeros[0];
+      printf("Valor = %d\n", *pNum);  
+      pNum++;  
+      printf("Valor = %d\n", *pNum);  
+      pNum = pNum + 1;  
+      printf("numero via ponteiro = %d\n", *pNum);  
+      return 0; 
+    }    
+    ```
+    b)
+    ```C
+    #include <stdio.h>   
+    #define MAX 5    
+    int main () 
+    {    
+      int numeros[MAX] = {10, 20, 30, 40, 50};    
+      int* pNum = numeros;      
+      while(pNum<=&numeros[MAX-1]) {      
+        printf("numero via ponteiro = %d\n", *pNum);      
+        pNum++;    
+      }      
+      return 0;  
+    } 
+    ```
+    
 
 1. **[A2]** Crie a declaração apropriada para as seguintes variáveis. Inicialize todos os vetores.
     

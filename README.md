@@ -47,7 +47,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 |    ...   |          |               |
 
 
-1X. **[A]** Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
+2. Implemente um programa que contenha duas variáveis x e y do tipo int e float, ambas inicializadas com o valor 5. Declare também dois apontadores px e py, que apontam para x e y respetivamente.
 
 	Em seguida mostre o valor das variáveis e o seu endereço armazenado no respetivo apontador. Depois mostre o valor das mesmas variáveis incrementado em uma unidade.
 	
@@ -55,7 +55,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 	Transforme os endereços num long int para melhor compreensão dos resultados.
 
 
-2. Qual o valor das variáveis x, y e z no fim da execução do programa?
+3. Qual o valor das variáveis x, y e z no fim da execução do programa?
 
     ```C
 	#include <stdio.h>
@@ -76,7 +76,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
  
     
 
-3. **[A]** Considere o seguinte código:
+4. Considere o seguinte código:
     ```C
     int main (int argc, char * argv[]) {
       int numero = 10;  
@@ -96,7 +96,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
     d) Apresente novamente no ecrã o valor da variável número, usando o ponteiro pNum;
 
 
-4. **[A]** Indique justificando qual o output do seguinte código sem o executar:
+5. Indique justificando qual o output do seguinte código sem o executar:
 
     a)
     ```C
@@ -126,7 +126,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
     } 
     ```
     
-5. **[A]** Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
+6. Implemente uma função que receba uma string  (char *)  e devolva o endereço da  primeira vogal que existe nessa string. Caso não exista nenhuma vogal a função deve devolver  NULL.
 
     Sugere-se que a função tenha o seguinte protocolo:    
     ```C
@@ -134,7 +134,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
     ```
     
 
-6. **[A]** Considere as funções main () e calcular_dados() que se seguem:
+7. Considere as funções main () e calcular_dados() que se seguem:
     ```C
     void calcular_dados (...) {  // TODO  }   
 
@@ -158,14 +158,14 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 
 
 
-7. **[A]** Implemente uma função que seja capaz de determinar qual o maior e menor valores de um vetor de inteiros. A função deve respeitar a seguinte assinatura:
+8. Implemente uma função que seja capaz de determinar qual o maior e menor valores de um vetor de inteiros. A função deve respeitar a seguinte assinatura:
     ```C
     void calcMinimoEMaximo (int numeros[], int tamanho, int *min, int *max ) {  }
     ```
     Os valores do menor e maior números devem ser guardados nas posições de memória para as  quais apontem os parâmetros min e max  (ponteiros)  que a função recebe.
 
 
-8. **[A]** Considere o array argv[], que faz parte da assinatura standard da função main,  e que permite receber argumentos de linha de comandos, durante a execução do programa.
+9. Considere o array argv[], que faz parte da assinatura standard da função main,  e que permite receber argumentos de linha de comandos, durante a execução do programa.
     ```C
     int main (int argc, char* argv[]) { 
  		  /* … */  
@@ -189,7 +189,7 @@ variável var2 assumindo que este é o próximo endereço livre possível.
     - Tenha em conta que argv[0] irá conter o nome do programa. Esse argumento não deverá aparecer no seu output.
 
 
-10x.  **[A]** Implemente um programa que some todos os números passados na linha de comando.
+10.  Implemente um programa que some todos os números passados na linha de comando.
 
 	Exemplo:
 	```bash
@@ -201,24 +201,23 @@ variável var2 assumindo que este é o próximo endereço livre possível.
 	55
 	```
 	
-x2. **[A]** Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
+11. Implemente um programa que mostre uma string no ecrã pela ordem em que está escrita e pela ordem contrária. Use somente duas variáveis (char str[100] e char *ptr)
 
 
-x5. **[A]** Implemente a função myStrcpy que copia a string orig para a string dest.
+12. Implemente a função myStrcpy que copia a string orig para a string dest.
 	```C
 	char *myStrcpy(char *dest, char *orig) {…}
 	```
-	
-x6.  **[A]** Implemente a função myStrcat que junta (concatena) a string orig à string dest. Poderá utilizar a função myStrcpy criada no exercício anterior.
+13. Implemente a função myStrcat que junta (concatena) a string orig à string dest. Poderá utilizar a função myStrcpy criada no exercício anterior.
 	```C
 	char *myStrcat(char *dest, char *orig){…} 
 	```
-x7.  **[A]** Implemente a função troca.
+14. Implemente a função troca.
 	```C
 	void troca (int *a, int *b) {…}
 	```
 	
-x9.  **[A]** Implemente a função strset que coloca o carácter ch em todas as posições da string str.
+15. Implemente a função strset que coloca o carácter ch em todas as posições da string str.
 	```C
 	char *strset(char *str, char ch) {…}
 	```

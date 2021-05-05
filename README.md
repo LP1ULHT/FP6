@@ -294,7 +294,7 @@ Nesta ficha existem dois níveis de exercícios:
     
     c) **&p
     
-    d) 3* - *p/(*q)+7
+    d) 3* - *q/(*p)+7
 
 
 10. **[A2]** Qual será a saída deste programa supondo que i ocupa o endereço 4094 na memória?

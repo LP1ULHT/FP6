@@ -460,3 +460,11 @@ x4. **[A2]** Identifique os erros nestas operações:
 	s < s+1
 	s+1-s
 	```
+
+
+i1. Escreva um programa que pede consecutivamente X numeros, e de seguida imprime esses numeros. 
+	Sendo obrigatorio usar a seguinte funcao para ler numeros:
+		int * pedeNumero ();
+	Sendo obrigatorio usar a seguinte funcao para escrever os numeros:
+		void escreveNumero (int * numero)
+		

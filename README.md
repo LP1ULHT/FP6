@@ -416,8 +416,10 @@ Nesta ficha existem dois níveis de exercícios:
     
  16. **[A2]** O que faz o seguinte programa quando executado?
     
-    a)    
+    a) 
+    
     ```C
+    
     #include <stdio.h>
     void main() 
     {
@@ -428,9 +430,13 @@ Nesta ficha existem dois níveis de exercícios:
         printf("%d ",*ptr++);
       }
     }
+    
     ```
+    
     b)
+    
     ```C
+    
     #include <stdio.h>
     void main()
     {
@@ -441,6 +447,7 @@ Nesta ficha existem dois níveis de exercícios:
         printf("%d ",(*ptr)++);
       }
     }
+    
     ```
 
 17. **[A2]** Seja vet um vetor de 4 elementos: TIPO vet[4]. Supor que depois da declaração, vet esteja armazenado no endereço de memória 4092 (ou seja, o endereço de vet[0]). Supor também que na máquina usada uma variável do tipo char ocupa 1 byte, do tipo int ocupa 2 bytes, do tipo float ocupa 4 bytes e do tipo double ocupa 8 bytes.

@@ -486,3 +486,4 @@ void escreveNumero (int * numero)
 	printf ("Escreveu numero %d\n", *numero);
 }
 ```
+Nota: Não se pode usar vetores/arrays

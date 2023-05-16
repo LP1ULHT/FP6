@@ -415,7 +415,10 @@ Nesta ficha existem dois níveis de exercícios:
     
     
  16. **[A2]** O que faz o seguinte programa quando executado?
+
+
     a) 
+    
     
     ```C
     
@@ -432,7 +435,10 @@ Nesta ficha existem dois níveis de exercícios:
     
     ```
     
+    
     b)
+    
+    
     
     ```C
     

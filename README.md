@@ -367,7 +367,9 @@ Nesta ficha existem dois níveis de exercícios:
 
 15. **[A2]** O que fazem os seguintes programas:
     a)
+    
     ```C
+    
     #include <stdio.h>
     void main()
     {
@@ -377,10 +379,13 @@ Nesta ficha existem dois níveis de exercícios:
         printf("%d ",*(vet+i));
       }
     }
+    
     ```
     
     b)
+    
     ```C
+    
     #include <stdio.h>
     void main()
     {
@@ -390,9 +395,11 @@ Nesta ficha existem dois níveis de exercícios:
         printf("%ld ",(long)vet+i);
       }
     }
+    
     ```
     
     c)
+    
     ```C
     #include <stdio.h>
     void main()
@@ -403,7 +410,9 @@ Nesta ficha existem dois níveis de exercícios:
         printf("%d ", ++*(vet+i));
       }
     }
+    
     ```
+    
     
  16. **[A2]** O que faz o seguinte programa quando executado?
     

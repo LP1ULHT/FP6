@@ -463,9 +463,26 @@ x4. **[A2]** Identifique os erros nestas operações:
 
 
 i1. Escreva um programa que pede consecutivamente X numeros, e de seguida imprime esses numeros. 
-    O programa pergunta no inicio quantos numeros vai ler/escrever.
-	De seguida é obrigatorio usar a seguinte funcao para ler numeros:
-		void pedeNumero (int * numero);
-	e depois é obrigatorio usar a seguinte funcao para escrever os numeros:
-		void escreveNumero (int * numero);
-		
+
+O programa pergunta no inicio quantos numeros vai ler/escrever.
+
+De seguida é obrigatorio usar a seguinte funcao para ler numeros:
+
+```
+void pedeNumero (int * numero)
+{
+	printf("Escreva um numero:");
+	
+	scanf (" %d", numero);
+}
+```
+
+
+e depois é obrigatorio usar a seguinte funcao para escrever os numeros:
+
+```
+void escreveNumero (int * numero)
+{
+	printf ("Escreveu numero %d\n", *numero);
+}
+```

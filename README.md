@@ -368,7 +368,7 @@ Nesta ficha existem dois níveis de exercícios:
 15. **[A2]** O que fazem os seguintes programas:
     a)
     
-    ```C
+   ```C
     
     #include <stdio.h>
     void main()
@@ -380,11 +380,11 @@ Nesta ficha existem dois níveis de exercícios:
       }
     }
     
-    ```
+   ```
+
+   b)
     
-    b)
-    
-    ```C
+   ```C
     
     #include <stdio.h>
     void main()
@@ -396,11 +396,11 @@ Nesta ficha existem dois níveis de exercícios:
       }
     }
     
-    ```
+   ```
     
-    c)
+   c)
     
-    ```C
+   ```C
     #include <stdio.h>
     void main()
     {
@@ -411,7 +411,7 @@ Nesta ficha existem dois níveis de exercícios:
       }
     }
     
-    ```
+   ```
     
     
 
@@ -419,7 +419,7 @@ Nesta ficha existem dois níveis de exercícios:
  
    a) 
     
-    ```C
+   ```C
     
     #include <stdio.h>
     void main() 
@@ -432,14 +432,14 @@ Nesta ficha existem dois níveis de exercícios:
       }
     }
     
-    ```
+   ```
     
     
    b)
     
     
     
-    ```C
+   ```C
     
     #include <stdio.h>
     void main()
@@ -452,7 +452,7 @@ Nesta ficha existem dois níveis de exercícios:
       }
     }
     
-    ```
+   ```
 
 17. **[A2]** Seja vet um vetor de 4 elementos: TIPO vet[4]. Supor que depois da declaração, vet esteja armazenado no endereço de memória 4092 (ou seja, o endereço de vet[0]). Supor também que na máquina usada uma variável do tipo char ocupa 1 byte, do tipo int ocupa 2 bytes, do tipo float ocupa 4 bytes e do tipo double ocupa 8 bytes.
 
@@ -472,7 +472,7 @@ int myStrlen(char *s) {…}
 
 x4. **[A2]** Identifique os erros nestas operações:
 	
-	```C
+```C
 	char s[20] = “Ola”;
 	s = “ole”
 	s++
@@ -482,7 +482,7 @@ x4. **[A2]** Identifique os erros nestas operações:
 	s = s-2
 	s < s+1
 	s+1-s
-	```
+```
 
 
 i1. Escreva um programa que pede consecutivamente X numeros, e de seguida imprime esses numeros. 
